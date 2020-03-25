@@ -23,9 +23,20 @@ namespace at02.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Servicos()
         {
             return View();
+        }
+
+        public IActionResult Agendamento()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Agendamento(Agendamento agendamento)
+        {
+            return View("Sucesso");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Pré-Agendamento";
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="POST">
+    <p>
+       <label asp-for="nome">Nome:</label>
+       <input asp-for="nome" />
+   </p>
+   <p>
+       <label asp-for="telefone">Telefone:</label>
+       <input asp-for="telefone" />
+   </p>
+   <p>
+       <label asp-for="data">Data:</label>
+       <input asp-for="data" />
+   </p>
+   <p>
+       <label asp-for="animal">Animal:</label>
+       <input asp-for="animal" />
+   </p>
+   <p>
+       <label asp-for="necessidade">Necessidade:</label>
+       <textarea asp-for="necessidade"></textarea>
+   </p>
+   <input type="submit" value="Enviar" />
+
+</form>
