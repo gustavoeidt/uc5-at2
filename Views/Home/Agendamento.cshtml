@@ -3,6 +3,7 @@
 }
 <h1>@ViewData["Title"]</h1>
 
+@model at02.Models.Agendamento
 <form method="POST">
     <p>
        <label asp-for="nome">Nome:</label>
@@ -14,11 +15,16 @@
    </p>
    <p>
        <label asp-for="data">Data:</label>
-       <input asp-for="data" />
+       <input type="date" asp-for="data" />
    </p>
    <p>
        <label asp-for="animal">Animal:</label>
-       <input asp-for="animal" />
+       <select asp-for="animal">
+           <option value="Cachorro">Cachorro</option>
+           <option value="Gato">Gato</option>
+           <option value="Outros Domésticos">Outros Animais Domésticos</option>
+           <option value="Outros Silvestres">Animal Silvestre</option>
+       </select>
    </p>
    <p>
        <label asp-for="necessidade">Necessidade:</label>

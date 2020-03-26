@@ -1,6 +1,24 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Cadastro realizado com sucesso!";
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+@model at02.Models.Agendamento
+
+<dl>
+    <dt>Nome</dt>
+    <dd>@Model.nome</dd>
+
+    <dt>Telefone</dt>
+    <dd>@Model.telefone</dd>
+
+    <dt>Data</dt>
+    <dd>@Model.data</dd>
+
+    <dt>Animal</dt>
+    <dd>@Model.animal</dd>
+
+    <dt>Necessidade</dt>
+    <dd>@Model.necessidade</dd>
+</dl>
+

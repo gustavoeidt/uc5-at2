@@ -36,7 +36,9 @@ namespace at02.Controllers
         [HttpPost]
         public IActionResult Agendamento(Agendamento agendamento)
         {
-            return View("Sucesso");
+            Dados.incluir(agendamento);
+            return View("Sucesso",agendamento);
+            
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

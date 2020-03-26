@@ -22,7 +22,6 @@ C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\at02.TagHelpers.output.cache
 C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\at02.RazorCoreGenerate.cache
 C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\Razor\Views\Home\Agendamento.cshtml.g.cs
 C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\Razor\Views\Home\Servicos.cshtml.g.cs
 C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\Razor\Views\Home\Sucesso.cshtml.g.cs
 C:\xampp\htdocs\UC-3\at02\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
